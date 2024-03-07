@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<htmL>
+    <head>
+        <title>1st project</title>
+        <link rel="icon" href="/images/rathod.jpeg">
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: rgba(49, 207, 218, 0.886);
+                font-size: larger;
+                border: 15px white solid;
+            }
+            header{
+                text-align: center;
+                border: 10px black solid;
+            }
+            .nav{
+                display: inline;
+                padding: 100px;
+            }
+            .nav a{
+                text-decoration: none;
+                color: aliceblue;
+                font-size: x-large;
+            }
+            section,header,footer,tr,td,th{
+                text-align: center;
+                border: 5px black solid;
+            }
+            .table{
+                width: 100%;
+                text-align: center;
+                border: 2px black solid;
+
+            }
+        </style>
+    </head>
+    <body>
+
+       <header>
+            <h1>Welcome to Employee HR Services</h1>
+            <nav>
+               <ul>
+                   <li class="nav"><a href="#employee-registration">Employee-Registration</a></li>
+                   <li class="nav"><a href="#employee-directory">Employee-Directory</a></li>
+                   <li class="nav"><a href="#contact-us">Contact US</a></li>
+               </ul>
+            </nav>
+       </header>
+        
+         <img src="images/bb2.jpeg" style="width: 100%; height: 1;">
+
+        <section class="registration">
+            <h2>Employee-Registration</h2>
+            <br>
+            <p>Fill the below form for registration</p>
+            <form>
+                <label for="name">Nmae: </label>
+                <input type="text" placeholder="Enter name" id="name"><br><br>
+                <label for="age">Age: </label>
+                <input type="number" placeholder="Enter your Age" id="age"><br><br>
+                <label for="gender">Select your gender :</label>
+                <input type="radio" id="gender"  name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="gender" name="gender" value="Female">
+                <label for="Female">Female</label><br><br>
+                <label for="email">Enter your Email ID:</label>
+                <input type="email" id="email"><br><br>
+                <label for="password">password:</label>
+                <input type="password" id="password"><br><br>
+                <label for="role">Select your Role:</label>
+                <select id="role">
+                    <option>Software Engineer</option>
+                    <option>Web Developer</option>
+                    <option>Manager</option>
+                    <option>Designer</option>
+                </select><br><br>
+                <input type="submit">
+            </form>
+        </section> 
+          <br><br>
+        <section>
+             <h2>Employee-Directory</h2>
+             <br>
+             <p>Here are the details of the Employee members of the company</p>
+             <br>
+                <table class="table">
+                 <tr>
+                    <th>S.No</th>
+                    <th>Employee Nmae</th>
+                    <th>Employee ID</th>
+                    <th>Employee Role</th>
+                 </tr>
+                 <tr>
+                    <td>1</td>
+                    <td>Lalitha</td>
+                    <td>687</td>
+                    <td>Web Developer</td>
+                 </tr>
+                 <tr>
+                    <td>2</td>
+                    <td>Harish Mehtha</td>
+                    <td>597</td>
+                    <td>Designer</td>
+                 </tr>
+                 <tr>
+                    <td>3</td>
+                    <td>V.N.Narayana</td>
+                    <td>420</td>
+                    <td>Manager</td>
+                 </tr>
+             </table>
+             
+
+        </section>
+        <br><br>
+        <section>
+            <h2>Contact US</h2>
+            <p>For more details contact to <br>Email:wwwqqqqq@gmail.com<br>P.no:322*******8</p>
+            <br>
+            <p>Follow the below location for office address</p><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30382.88763517561!2d78.66046810210656!3d17.845151971060375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcc870db0fdc745%3A0xd2748297974c575b!2sGajwel%2C%20Telangana!5e0!3m2!1sen!2sin!4v1708181528739!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <br><br>
+        <footer>
+            @manishsoftwarecompany.com 
+        </footer>
+    </body>
+</htmL>
